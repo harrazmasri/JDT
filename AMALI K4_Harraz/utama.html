@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		
+		<title>Halaman Utama</title>
+
+		<style>
+			
+			* {
+				margin: 0;
+			}
+
+			body {
+				background-color:#EEE;
+				font-family: calibri;
+
+			}
+
+
+			#container {
+				background-color : white;
+				width:800px;
+				margin-left:auto;
+				margin-right:auto;
+			}
+
+			#banner {
+				image-align:center;
+			}
+
+			#header {
+				background-color:darkblue;
+				color:white;
+				text-align : center;
+			}
+
+			#content {
+				padding:10px;
+				background-color: #EEE;
+			}
+
+			#nav {
+
+				width:180px; float:right;
+			}
+
+			#nav>ul {
+				list-style:none;
+			}
+
+			li>a {
+				display: block;
+				color: black;
+				line-height: 20px;
+				text-align: center;
+				font-size: 10px;
+				text-decoration: none;
+
+			}
+
+			li>a:hover {
+				background: grey;
+				color:#333;
+				color:white;
+			}
+
+			.current-page {
+				background: rgb(170,170,170);
+				color:#333;
+				color:white;
+			}
+
+			.peta {
+				width: 600px;
+				float: right;
+			}
+
+			.peta_img {
+				width: 500px;
+
+			}
+
+		</style>
+
+	</head>
+
+	<body>
+		
+		<div id="container">
+
+		<div id="banner" align="center">
+			<img src="Banner_Johor.jpg" width="800" height="300" align="bottom">
+		</div>
+
+		<div id = "header">
+			<h1>KENALI JOHOR DARUL TAKZIM</h1>
+		</div>
+
+<!-----------------------------------------------Navigation menu------------------------------------------------->
+
+		<div id="content">
+			
+			<div id="nav">
+
+			<ul>
+				<li align="center"><h3>MENU NAVIGASI</h3></li>
+				<li align="center"><h3>______________</h3></li>
+				<li><a class="current-page" href="utama.html">UTAMA</a></li>
+				<li><a href="#">LAGU BANGSA JOHOR</a></li>
+				<li><a href="#">KESULTANAN JOHOR</a></li>
+
+			</ul>
+			
+		</div>
+
+<!-----------------------------------------------Peta---------------------------------------------------------->
+
+		<div class="peta">
+			<center>
+				<img src="peta.jpg" class="peta_img"></img>
+			</center>
+		</div>
+
+	</body>
+
+
+</html>
